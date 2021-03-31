@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* HEADER */
+.header {
+    background-color: #120458;
+    color: white;
+    overflow: auto;
+    border-bottom: 3px solid  #FF124F;;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.header h1 {
+    margin: 0;
+    float: left;
+    padding-top: 5px;
+}
+
+.navbar {
+    list-style: none;
+    float: right;
+}
+
+.navbar li {
+    float: left;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.destaque {
+    color: white;
+}
+
+.vapor {
+    background: rgb(255,0,161);
+    background: linear-gradient(90deg, rgba(255,0,161,1) 0%, rgba(255,44,86,1) 50%, rgba(255,92,50,1) 100%);
+}
+
+.navbar span {
+    color: #FF124F;
+    font-weight: bold;
+}
+
+wave {
+    color: rgba(255,92,50,1);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.aqui:hover {
+    color: #FF124F;
+    transition: 0.5s;
+}
+
+/* BANNER */
+
+.banner {
+    text-align: left;
+    background: rgb(255,0,161);
+    background: linear-gradient(90deg, rgba(255,0,161,1) 0%, rgba(255,44,86,1) 50%, rgba(255,92,50,1) 100%);
+    background-image: url(img/Fundo-Sobre.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 90vh;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 50px;
+    padding-top: 15%;
+}
+
+.banner h3 {
+    color: white;
+    width: 30%;
+    float: left;
+}
+
+.banner img {
+    width: 30%;
+    left: 50%;
+    position: relative;
+}
+
+.banner span {
+    background: rgb(255,0,161);
+    background: linear-gradient(90deg, rgba(255,0,161,1) 0%, rgba(255,44,86,1) 50%, rgba(255,92,50,1) 100%);
+}
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    background-color: #120458;
+    overflow: auto;
+    color: white;
+    border-top: 3px solid  #FF124F;;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.aqui:hover {
+    color: #FF124F;
+    transition: 0.5s;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #FF124F;
+    transition: 0.75s;
+    font-size: 17px;
+}

@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* HEADER */
+.header {
+    background-color: #120458;
+    color: white;
+    overflow: auto;
+    border-bottom: 3px solid  #FF124F;;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.header h1 {
+    margin: 0;
+    float: left;
+    padding-top: 5px;
+}
+
+.navbar {
+    list-style: none;
+    float: right;
+}
+
+.navbar li {
+    float: left;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.destaque {
+    color: white;
+}
+
+.vapor {
+    background: rgb(255,0,161);
+    background: linear-gradient(90deg, rgba(255,0,161,1) 0%, rgba(255,44,86,1) 50%, rgba(255,92,50,1) 100%);
+}
+
+.navbar span {
+    color: #FF124F;
+    font-weight: bold;
+}
+
+wave {
+    color: rgba(255,92,50,1);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.aqui:hover {
+    color: #FF124F;
+    transition: 0.5s;
+}
+
+/* BANNER */
+
+.banner {
+    text-align: center;
+    background: rgb(255,0,161);
+    background: linear-gradient(90deg, rgba(255,0,161,1) 0%, rgba(255,44,86,1) 50%, rgba(255,92,50,1) 100%);
+    background-image: url(img/Fundo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.caixa-esquerda {
+    background-image: url(img/1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 60% ;
+    height: 80vh;
+    margin-top: 30px;
+    text-align: center;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.692);
+}
+
+.caixa-esquerda h1 {
+    color: white;
+}
+
+.caixa-esquerda button{
+    border: none;
+    background: rgb(253,33,233);
+    background: linear-gradient(90deg, rgba(253,33,233,1) 0%, rgba(252,35,49,1) 100%);
+    color: white;
+    text-transform: uppercase;
+    border-radius: 40px;
+    padding: 10px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.692);
+}
+
+.caixa-esquerda button:hover {
+    padding: 10px 40px;
+    transition: 0.75s;
+}
+
+.caixa-direita {
+    background-color: white;
+    width: 40%;
+    float: right;
+    height: 80vh;
+    margin-top: 30px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.692);
+}
+
+.caixa-direita h3 {
+    margin-top: 10vh;
+    margin-bottom: 200px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.caixa-direita input {
+    border: 2px solid #E5E5E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    width: 50%;
+    color: black;
+    font-weight: bolder;
+    outline: none;
+    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.caixa-direita input:focus {
+    width: 60%;
+    transition: 0.75s;
+}
+
+.caixa-direita button{
+    border: none;
+    background-color: rgba(255,44,86,1) ;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 40px;
+    padding: 10px 30px;
+    margin-top: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.caixa-direita button:hover {
+    transition: 0.75s;
+    border: 1px solid rgba(255,44,86,1);
+    color: rgba(255,44,86,1);
+    background: transparent;
+}
+
+.caixa-direita a {
+    color: black;
+}
+
+.caixa-direita a:hover {
+    color: rgba(255,44,86,1);
+    transition: 0.5s;
+    cursor: pointer;
+}

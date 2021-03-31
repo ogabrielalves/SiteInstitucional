@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* HEADER */
+.header {
+    background-color: #120458;
+    color: white;
+    overflow: auto;
+    border-bottom: 3px solid  #FF124F;;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.header h1 {
+    margin: 0;
+    float: left;
+    padding-top: 5px;
+}
+
+.navbar {
+    list-style: none;
+    float: right;
+}
+
+.navbar li {
+    float: left;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.destaque {
+    color: white;
+}
+
+.vapor {
+    background: rgb(255,0,161);
+    background: linear-gradient(90deg, rgba(255,0,161,1) 0%, rgba(255,44,86,1) 50%, rgba(255,92,50,1) 100%);
+}
+
+.navbar span {
+    color: #FF124F;
+    font-weight: bold;
+}
+
+wave {
+    color: rgba(255,92,50,1);
+}
+
+/* BANNER */
+
+.banner {
+    text-align: center;
+    background: rgb(255,0,161);
+    background: linear-gradient(90deg, rgba(255,0,161,1) 0%, rgba(255,44,86,1) 50%, rgba(255,92,50,1) 100%);
+    background-image: url(img/Fundo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80vh;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 50px;
+    padding-top: 15%;
+}
+
+.banner h3 {
+    color: white;
+}
+
+
+/*  SAIBA MAIS */
+
+.saiba-mais button {
+    border: none;
+    background: rgb(255,0,161);
+    background: linear-gradient(90deg, rgba(255,0,161,1) 0%, rgba(255,44,86,1) 50%, rgba(255,92,50,1) 100%);
+    color: white;
+    text-transform: uppercase;
+    border-radius: 40px;
+    padding: 10px 30px;
+    margin-top: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+.saiba-mais button:hover {
+    padding: 10px 45px;
+    transition: 0.75s;
+}
+
+.saiba-mais {
+    text-align: center;
+    background-color: black;
+    height: 9vh;
+}
+
+/* MISSÃO, VISÃO e VALORES */
+
+.banner-dois {
+    text-align: center;
+    background: rgb(255,0,161);
+    background: linear-gradient(90deg, rgba(255,0,161,1) 0%, rgba(255,44,86,1) 50%, rgba(255,92,50,1) 100%);
+    background-image: url(img/Fundo2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 85vh;
+}
+
+.banner-dois-item {
+    float: left;
+    width: 27%;
+    margin: 3%;
+    margin-top: 15%;
+    /* background-color: rgba(0, 0, 0, 0.26); */
+}
+
+.banner-dois img {
+    height: 100px;
+}
+.banner-dois h3 {
+    color: white;
+}
+
+.banner-dois p {
+    color: white;
+}
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    background-color: #120458;
+    overflow: auto;
+    color: white;
+    border-top: 3px solid  #FF124F;;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.aqui:hover {
+    color: #FF124F;
+    transition: 0.5s;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: #FF124F;
+    transition: 0.75s;
+    font-size: 17px;
+}
